@@ -15,7 +15,7 @@
             <p>your turn {{player}}</p>
           </div>
         </div>
-    <div id="start" class="col-6 m-auto d-flex disableClick ">
+    <div id="start" class="col-lg-6 col-sm-12 m-auto d-flex disableClick  ">
       <div class="col-3 " *ngFor="let item of game , let i =index" >
         <div>
             <input  [id]="'p' + i" (click)="move($event)" class="btn btn-light mt-2"  style="background-color: darkgray !important;" type="button">
